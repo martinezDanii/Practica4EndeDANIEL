@@ -36,6 +36,7 @@ public class CCuenta {
         if (cantidad<0)
             throw new Exception("No se puede ingresar una cantidad negativa");
         saldo = saldo + cantidad;
+        System.out.println("Ejemplos");
     }
 
     public void retirar(double cantidad) throws Exception
@@ -45,6 +46,8 @@ public class CCuenta {
         if (saldo < cantidad)
             throw new Exception ("No se hay suficiente saldo");
         saldo = saldo - cantidad;
+        System.out.println("Ejemplos");
+        System.out.println("Ejemplos");
     }
 }
 
